@@ -1,6 +1,16 @@
 *{
+    margin: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+header {
+    background-color: white;
+    border-collapse: collapse;
 }
 
 h1 {
@@ -12,4 +22,35 @@ h1 {
 #logo {
     vertical-align: middle;
     padding: 10px;
+}
+
+.container {
+    background-color: white;
+    width: 1500px;
+    height: 80px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+#buttonTask {
+    color: white;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(96, 165, 243);
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+#buttonSection {
+    color: rgba(130, 130, 130);
+    border: 1px solid rgb(130, 130, 130);
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
 }
