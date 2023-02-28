@@ -11,6 +11,7 @@ body {
 header {
     background-color: white;
     border-collapse: collapse;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -24,11 +25,10 @@ h1 {
     padding: 10px;
 }
 
-.container {
+.container1 {
     background-color: white;
     width: 1500px;
     height: 80px;
-    margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
     background-color: white;
@@ -53,4 +53,42 @@ h1 {
     width: 110px;
     height: 30px;
     border-radius: 5px;
+}
+
+.container2 {
+    background-color: white;
+    width: 1500px;
+    height: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.margin {
+    margin-left: 80px;
+    padding-top: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.checkGreen {
+    font-size: 15px;
+    color: green;
+    border: 2px solid green;
+    border-radius: 70%;
+}
+
+span {
+    font-size: 20px;
+}
+
+.blueword {
+    color: white;
+    background-color: rgb(96, 165, 243);
+    border-radius: 10px;
+    padding: 4px;
 }
