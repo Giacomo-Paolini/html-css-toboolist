@@ -27,7 +27,7 @@ h1 {
 
 .container1 {
     background-color: white;
-    width: 1500px;
+    width: 1400px;
     height: 80px;
     margin-right: auto;
     margin-left: auto;
@@ -57,7 +57,7 @@ h1 {
 
 .container2 {
     background-color: white;
-    width: 1500px;
+    width: 1400px;
     height: 1000px;
     margin-right: auto;
     margin-left: auto;
@@ -77,6 +77,11 @@ section {
 
 h2 {
     margin-bottom: 10px;
+}
+
+span {
+    padding: 1.5px;
+    margin-right: 5px;
 }
 
 .checkGreen {
