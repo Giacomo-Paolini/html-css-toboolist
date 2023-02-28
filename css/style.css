@@ -71,6 +71,10 @@ h1 {
     padding-top: 30px;
 }
 
+section {
+    margin-bottom: 50px;
+}
+
 h2 {
     margin-bottom: 10px;
 }
@@ -82,8 +86,21 @@ h2 {
     border-radius: 70%;
 }
 
-span {
+.crossRed {
+    font-size: 15px;
+    color: red;
+    border: 2px solid red;
+    border-radius: 70%;
+}
+
+p {
     font-size: 20px;
+    margin-bottom: 20px;
+}
+
+small {
+    font-size: 10px;
+    margin-left: 5px;
 }
 
 .blueword {
@@ -92,3 +109,39 @@ span {
     border-radius: 10px;
     padding: 4px;
 }
+
+.purpleword {
+    color: white;
+    background-color: purple;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.greenword {
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.orangeword {
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.pinkword {
+    color: white;
+    background-color: rgb(253, 154, 170);
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.lightgreenword {
+    color: white;
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding: 4px;
+}
+
